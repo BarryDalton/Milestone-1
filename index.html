@@ -5,91 +5,224 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" type="text/css" />
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="styles.css" type="text/css" />
     <title>Arcade Fire Fan Site</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+        crossorigin="anonymous">
+    <link rel="stylesheet" href="styles.css">
 </head>
 
 <body>
-    
+<!-- START OF NAVIGATION-->
+    <nav class="navbar navbar-expand-sm navbar-dark bg-dark">
+        <a href="index.html" class="navbar-brand">Arcade Fire Fan Site</a>
+		    <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarMenu">
+            <span class="navbar-toggler-icon"></span>
+		    </button>
 
-    <header class="container">
-        <nav class="navbar">
-            <div class="navbar-header">
-                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#myNavbar" aria-expanded="false">
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                </button>
-                <h1><a class="navbar-brand" href="index.html">Arcade Fire</a></h1>
-            </div>
-            <div class="collapse navbar-collapse" id="myNavbar">
-                <ul class="nav navbar-nav navbar-right">
-                    <li><a href="index.html">HOME</a></li>
-                    <li><a href="about.html">ABOUT</a></li>
-                    <li><a href="music.html">MUSIC</a></li>
-                    <li><a href="store.html">STORE</a></li>
-                    <li><a href="contact.html">BOOKINGS/CONTACT</a></li>
-                </ul>
-            </div>
-        </nav>
-    </header>
 
-    <section class="container">
+				
 
-        <div class="video-wrapper">
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/videoseries?list=PLV_bVczPcRZSVDC2dBrVoCwPdwYbgXZkD" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <div class="collapse navbar-collapse" id="navbarMenu">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a href="index.html" class="nav-link">News</a>
+                </li>
+                <li class="nav-item">
+                    <a href="biography.html" class="nav-link">Biography</a>
+                </li>
+                <li class="nav-item">
+                    <a href="music.html" class="nav-link">Music</a>
+                </li>
+                <li class="nav-item">
+                    <a href="store.html" class="nav-link">Store</a>
+                </li>
+                <li class="nav-item">
+                    <a href="contact.html" class="nav-link">Contact</a>
+                </li>
+				 </ul>
+
+			<ul class="nav navbar-nav navbar-right">
+				<li class="nav-item"><a class="nav-link" href=""><i class="fab fa-facebook"></i></a></li>
+            	<li class="nav-item"><a class="nav-link" href=""><i class="fab fa-instagram"></i></a> </li>
+				<li class="nav-item"><a class="nav-link" href=""><i class="fab fa-youtube"></i></a> </li>
+				<li class="nav-item"><a class="nav-link" href=""><i class="fab fa-spotify"></i></a> </li>
+				</ul>
+				           
         </div>
-        <hr>
-        <div class="news-section">
-            <div class="musicPlayer">
-                <h1>~ NEWEST ALBUM ~</h1>
-                <iframe src="https://open.spotify.com/album/1DNojVW079FU9YnAMk3Cgr" style="border: 0; width: 100%; height: 380px;" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
-                <h2>MTV Unplugged in New York, Released 1st November 1994</h2>
-            </div>
-            <div class="best-selling-album">
-                <h1>~ BEST SELLING ALBUM ~</h1>
-                <img class="responsive" src="https://images.genius.com/4465191b365db223ee48932553c77c6c.559x559x1.jpg">
-                <h2>Nevermind, Released on September 24th, 1991 by DGC Records</h2>
-            </div>
+    </nav>
 
-            <hr>
-
-            <div class="latest-tour">
-                <h1>~ LATEST TOUR ~</h1>
-                <img class="responsive" src="../images/gig-poster.jpg">
-                <h2>Terminal One - Munich</h2>
-            </div>
-        </div>
-
-<div class"twitter">
-<a class="twitter-timeline" data-width="500" data-height="1200" data-theme="dark" href="https://twitter.com/arcadefire?ref_src=twsrc%5Etfw">Tweets by arcadefire</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+<!-- END OF NAVIGATION-->
 
 
-    </section>
+<!-- TOP INTRO-->
+
+<div class="container-fluid">
+	<div class="row">
+		<div class="col-md-12">
+			<div class="jumbotron1">
+				<h2>
+					Arcade Fire's Introduction
+				</h2>
+				<p>
+				An indie-rock band based primarily Montreal, Quebec, Canada, Arcade Fire are fronted by husband and wife Win Butler and Régine Chassagne, as well as Richard Reed Parry, Tim Kingsbury, Will Butler (brother of Win), and Jeremy Gara. 
+				They usually tour with a large entourage of musicians, who occasionally outnumber “the band”. Their sound reflects that – tracks regularly feature all sections of the orchestra.
+					Arcade Fire have released 5 commercial albums as of 2019, with all of them being commercial successes which is a huge credit to the band and each members contribution.
+				</p>
+				<p>
+					
+				</p>
+			</div>
+		</div>
+	</div>
+</div>
+
+
+<br>
+
+<!-- END OF INTRO-->
+
+
+			<div class="row">
+				<div class="col-md-4">
+					<div class="card">
+						<img class="card-img-top" alt="Bootstrap Thumbnail First" src="https://t2.genius.com/unsafe/300x0/https%3A%2F%2Fimages.genius.com%2F0be5789ada8625aa344d51af59ed09ba.1000x1000x1.jpg" />
+						<div class="card-block">
+							<h5 class="card-title">
+								Check out their latest albums
+							</h5>
+							<p class="card-text">
+								Everything Now is Arcade Fire’s fifth studio released Friday 28 July, 2017. It features a more developed disco/electronica influenced sound the band experimented with on Reflektor (2013).
+								In the lead-up to the album’s release, the band launched several viral marketing campaigns including a satire music review website called Stereoyum. 
+								They published a preview self-review of their own album, referencing the influence of producer and collaborator Thomas Bangalter (of Daft Punk) on their sound:
+							</p>
+							<p>
+											</p>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-4">
+					<div class="card">
+						<img class="card-img-top" alt="Bootstrap Thumbnail Second" src="https://dummyimage.com/300" />
+						<div class="card-block">
+							<h5 class="card-title">
+								Card title
+							</h5>
+							<p class="card-text">
+								Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.
+							</p>
+							<p>
+								<a class="btn btn-primary" href="#">Action</a> <a class="btn" href="#">Action</a>
+							</p>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-4">
+					<div class="card">
+						<img class="card-img-top" alt="Bootstrap Thumbnail Third" src="https://twitter.com/arcadefire/header_photo" />
+						<div class="card-block">
+							<h5 class="card-title">
+								Card title
+							</h5>
+							<p class="card-text">
+								<a class="twitter-timeline" data-lang="en" data-width="600" data-height="600" data-theme="dark" href="https://twitter.com/arcadefire?ref_src=twsrc%5Etfw">Tweets by arcadefire</a> 
+								<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script></p>
+							<p>
+								<a class="btn btn-primary" href="#">Action</a> <a class="btn" href="#">Action</a>
+							</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+
+
+			<div class="row">
+				<div class="col-md-4">
+					<div class="card">
+						<img class="card-img-top" alt="Bootstrap Thumbnail First" src="https://t2.genius.com/unsafe/300x0/https%3A%2F%2Fimages.genius.com%2F0be5789ada8625aa344d51af59ed09ba.1000x1000x1.jpg" />
+						<div class="card-block">
+							<h5 class="card-title">
+								Check out their latest albums
+							</h5>
+							<p class="card-text">
+								Everything Now is Arcade Fire’s fifth studio released Friday 28 July, 2017. It features a more developed disco/electronica influenced sound the band experimented with on Reflektor (2013).
+								In the lead-up to the album’s release, the band launched several viral marketing campaigns including a satire music review website called Stereoyum. 
+								They published a preview self-review of their own album, referencing the influence of producer and collaborator Thomas Bangalter (of Daft Punk) on their sound:
+							</p>
+							<p>
+											</p>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-4">
+					<div class="card">
+						<img class="card-img-top" alt="Bootstrap Thumbnail Second" src="https://dummyimage.com/300" />
+						<div class="card-block">
+							<h5 class="card-title">
+								Card title
+							</h5>
+							<p class="card-text">
+								Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.
+							</p>
+							<p>
+								<a class="btn btn-primary" href="#">Action</a> <a class="btn" href="#">Action</a>
+							</p>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-4">
+					<div class="card">
+						<img class="card-img-top" alt="Bootstrap Thumbnail Third" src="https://dummyimage.com/600x200/000/fff" />
+						<div class="card-block">
+							<h5 class="card-title">
+								Card title
+							</h5>
+							<p class="card-text">
+								Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.
+							</p>
+							<p>
+								<a class="btn btn-primary" href="#">Action</a> <a class="btn" href="#">Action</a>
+							</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+
+
+<!-- Begin Footer. -->
+
+
 
     <footer class="container">
         <hr>
-        <div class="social-icon-list">
-            <ul class="list-inline social-links">
-                <li><a target="_blank" href="https://www.facebook.com/Nirvana"><i class="fa fa-facebook"></i></a></li>
-                <li><a target="_blank" href="https://twitter.com/arcadefire"><i class="fa fa-twitter"></i></a></li>
-                <li><a target="_blank" href="https://www.youtube.com/ArcadeFireSonovox"><i class="fa fa-youtube"></i></a></li>
-                
-            </ul>
-        </div>
+            
+
         <div class="copyright-footer">
-            <p class="copyright">© Copyright 2016 Universal Music Enterprises. All right reserved. | <a class="footer" target="_blank" href="http://privacypolicy.umusic.com/" style="color: #fab824;"><span class="hover">Privacy Policy</span></a> | <a class="footer" target="_blank"
-                    href="http://privacypolicy.umusic.com/terms/" style="color: #fab824;"><span class="hover">Terms of Use</span></a>
+            <p class="copyright">© Copyright 2019 SONY MUSIC ENTERTAINMENT UK LTD. All right reserved. | <a class="footer" target="_blank" href="http://sonymusic.co.uk/privacy/" style="color: #000000;"><span class="hover">Privacy Policy</span></a> | <a class="footer" target="_blank"
+                    </span></a>
             </p>
         </div>
     </footer>
 
+<!-- End of Footer. -->
 
+
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" type="text/css" />
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz" crossorigin="anonymous">
 </body>
 
 </html>
