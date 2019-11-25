@@ -9,7 +9,7 @@ As part of the first milestone project students are tasked with creating a respo
 
 # Created using 
 
-HTML CSS BOOTSTRAP 
+HTML CSS BOOTSTRAP
 
 # UX
 
