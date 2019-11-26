@@ -12,9 +12,7 @@ As part of the first milestone project students are tasked with creating a respo
 
 HTML CSS BOOTSTRAP 
 
-<img src="markdownmonstericon.png"
-     alt="Markdown Monster icon"
-     style="float: left; margin-right: 10px;" />
+![alt text](https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png "Logo Title Text 1")
 
 
 # UX
