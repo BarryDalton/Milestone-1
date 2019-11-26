@@ -12,6 +12,11 @@ As part of the first milestone project students are tasked with creating a respo
 
 HTML CSS BOOTSTRAP 
 
+<img src="markdownmonstericon.png"
+     alt="Markdown Monster icon"
+     style="float: left; margin-right: 10px;" />
+
+
 # UX
 
 https://wireframepro.mockflow.com/editor.jsp?editor=off&publicid=Mae178e669f8c5e65255cb694df49a5a61574160983795&projectid=M1e98a11bd66b06e97c4ac05293fb5c3f1570963480774&perm=Owner#/page/b093e70bafb4468d9d779df70678f2d3
