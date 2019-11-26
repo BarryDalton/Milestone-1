@@ -10,9 +10,7 @@ As part of the first milestone project students are tasked with creating a respo
 
 # Created using 
 
-HTML CSS BOOTSTRAP 
-
-<div>Icons made by <a href="https://www.flaticon.com/authors/freepik" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div>
+![HTML%, CSS JS logo](https://www.pinclipart.com/picdir/big/336-3368555_html-css-javascript-icons-clipart.png)
 
 
 # UX
