@@ -1,4 +1,4 @@
-# Milestone 1 Project : Aracde Fire Fan Website
+# Milestone 1 Project : Arcade Fire
 
 # Scope
 
@@ -27,9 +27,11 @@ https://wireframepro.mockflow.com/editor.jsp?editor=off&publicid=Mae178e669f8c5e
 
 
 # Thanks 
-
+  Mentor : 
+  
 
 # Feedback
 
 All feedback welcomed.
-# Milestone-1
+
+#Disclaimer
