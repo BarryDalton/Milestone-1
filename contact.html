@@ -66,29 +66,43 @@
 <!-- END OF INTRO-->
 
 <br>
-<form>
-  <div class="form-group">
-    <label for="exampleFormControlInput1">Please provide your email address</label>
-    <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
-  </div>
-  <div class="form-group">
-    <label for="exampleFormControlSelect1">Event Type</label>
-    <select class="form-control" id="exampleFormControlSelect1">
-      <option>Birthday</option>
-      <option>Party</option>
-      <option>Funeral</option>
-      <option>Corporate Event</option>
-      <option>Something else</option>
-    </select>
-  </div>
- 
-  <div class="form-group">
-    <label for="exampleFormControlTextarea1">Additional Information</label>
-    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
-  </div>
+ <!-- Contact Form-->
 
-  <button type="submit" class="btn btn-primary">Submit</button>
-</form>
+
+    <div class="container">
+        <form action="action_page.php">
+
+            <label for="fname">First Name</label>
+            <input type="text" id="fname" name="firstname" placeholder="Your name..">
+
+            <label for="lname">Last Name</label>
+            <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+
+            <label for="occasion">Occasion</label>
+            <select id="occasion" name="occasion">
+            <option value="australia">Birthday</option>
+            <option value="canada">Corporate Function</option>
+            <option value="usa">Festival</option>
+            <option value="usa">Reunion</option>
+          </select>
+
+            <label for="subject">Subject</label>
+            <textarea id="subject" name="subject" placeholder="Please provide as much details about the gig and specific requirements" style="height:200px"></textarea>
+
+            <input type="submit" value="Submit">
+
+        </form>
+    </div>
+
+
+
+
+
+    <link href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+    <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/js/bootstrap.min.js"></script>
+    <script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
 
 
 
