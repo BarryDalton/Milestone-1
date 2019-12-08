@@ -1,45 +1,109 @@
+<script src="https://kit.fontawesome.com/c4f046e112.js" crossorigin="anonymous"></script>
+/* Font ------------------------------------------------------ */
 
+font-family: 'zantrokeregular',
+serif;
 
+/* Font ------------------------------------------------------ */
 
-
-
-.jumbotron1{
-    background-image: url('https://beardedgentlemenmusic.com/wp-content/uploads/2017/08/Arcade-Fire-Sucks.jpg') ;
+.jumbotron1 {
+    background-image: url('https://ksassets.timeincuk.net/wp/uploads/sites/55/2017/06/Arcade-Fire-everything-now-tracklisting-920x584.jpg');
     background-size: cover;
-    padding-top: 10%;
-    padding-bottom: 10%;
-    }
-    
+    padding-top: 10px;
+    padding-bottom: 20%;
+}
+
+.jumbotron2 {
+    background-image: url('https://media.npr.org/assets/img/2017/03/06/arcadefire_wide-b0417802305e7d7c84e31a12f17971d08fa9c82f-s800-c85.jpg');
+    background-size: cover;
+    padding-top: 15%;
+    padding-bottom: 15%;
+}
 
 
-    .jumbotron2{
-        background-image: url('https://media.npr.org/assets/img/2017/03/06/arcadefire_wide-b0417802305e7d7c84e31a12f17971d08fa9c82f-s800-c85.jpg') ;
-        background-size: cover;
-        padding-top: 15%;
-        padding-bottom: 15%;
-        }
+/* Start Contact Form */
 
 
+/* Style inputs with type="text", select elements and textareas */
 
+input[type=text],
+select,
+textarea {
+    width: 100%;
+    /* Full width */
+    padding: 12px;
+    /* Some padding */
+    border: 1px solid #ccc;
+    /* Gray border */
+    border-radius: 4px;
+    /* Rounded borders */
+    box-sizing: border-box;
+    /* Make sure that padding and width stays in place */
+    margin-top: 6px;
+    /* Add a top margin */
+    margin-bottom: 16px;
+    /* Bottom margin */
+    resize: vertical/* Allow the user to vertically resize the textarea (not horizontally) */
+}
+
+
+/* Style the submit button with a specific background color etc */
+
+input[type=submit] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+
+/* When moving the mouse over the submit button, add a darker green color */
+
+input[type=submit]:hover {
+    background-color: #45a049;
+}
+
+
+/* Add a background color and some padding around the form */
+
+.container {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+}
+
+
+/* End of Contact Form */
+
+
+/* start @media queries   */
 
 // Extra small devices (portrait phones, less than 576px)
 // No media query since this is the default in Bootstrap
-
 // Small devices (landscape phones, 576px and up)
-@media (min-width: 576px) { ... }
+@media (min-width: 576px) {
+    ...
+}
 
 // Medium devices (tablets, 768px and up)
-@media (min-width: 768px) { ... }
+@media (min-width: 768px) {
+    ...
+}
 
 // Large devices (desktops, 992px and up)
-@media (min-width: 992px) { ... }
+@media (min-width: 992px) {
+    ...
+}
 
 // Extra large devices (large desktops, 1200px and up)
-@media (min-width: 1200px) { ... }
+@media (min-width: 1200px) {
+    ...
+}
 
 
-
-
+/* end @media queries   */
 
 
 /* Social Icons footer   */
@@ -47,14 +111,30 @@
 
 /* https://www.w3schools.com/howto/howto_css_social_media_buttons.asp */
 
+
+/* Circle Icons footer   */
+
 .fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 30px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+}
+
+
+/* Square Icons footer   */
+
+
+/*.fa {
     padding: 20px;
     font-size: 30px;
     width: 50px;
     text-align: center;
     text-decoration: none;
     margin: 5px 2px;
-}
+}  */
 
 .fa:hover {
     opacity: 0.7;
