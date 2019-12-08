@@ -1,4 +1,4 @@
-# Milestone 1 Project : Arcade Fire
+# Code Institute Milestone 1 Project : Arcade Fire
 
 # Scope
 
