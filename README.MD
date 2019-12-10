@@ -6,7 +6,7 @@ As part of the first milestone project students are tasked with creating a respo
 
 # Requirements
 
-## Build a website for a band (real or fictional)
+ Build a website for a band (real or fictional)
 
  External user’s goal:
 	The site's users are fans and potential fans who wish to learn more about the band's history and the band members, and possibly book them for shows.
@@ -26,24 +26,37 @@ As part of the first milestone project students are tasked with creating a respo
 
 
 # UX
+Thr original design & concept was sketched out and then trnsfered to mockflow.com to refine the design, make any necessary changes.  The sketches have been added to the assets/mock up folder as well as the mockflow designs.
 
 https://wireframepro.mockflow.com/editor.jsp?editor=off&publicid=Mae178e669f8c5e65255cb694df49a5a61574160983795&projectid=M1e98a11bd66b06e97c4ac05293fb5c3f1570963480774&perm=Owner#/page/b093e70bafb4468d9d779df70678f2d3
 
+# Deployment
+  The site is hosted and deployed on Github.com
 
 
 # Testing
+ ## The website has been designed and developed to be mobile first and to work primarily with Chrome web browser & mobile browsers.
+ - Google chrome & it's built in  development tools
 
-
-
-<http://ami.responsivedesign.is/#>
+- <http://ami.responsivedesign.is/#>
 
 
 # Thanks 
-  Mentor : Brian 
+  - Mentor : Brian
+  - w3schools
+  - bootstrap
+  
+
   
 
 # Feedback
 
-All feedback welcomed.
+## All feedback welcomed.
 
-#Disclaimer
+
+
+
+# Disclaimer
+  - This deployed website is for education purposes only.
+  - I do not own the rights to any images, assets, music, media or anything related to the band Arcade Fire.
+  - Content was sourced from multiple websites such as www.wikip dia.org, www.allmusic.com, www.ArcadeFire.com, www.everythingnow.com and the official social sites of Arcade Fire (Spotify, YouTube, Facebook, Twitter, Instagram)
